@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main Page</title>
+    <style>
+      body {
+          background-color: #656367;
+          color: #fff;
+          font-family: Arial, sans-serif;
+          line-height: 1.6;
+          margin: 0;
+          padding: 0;
+      }
+      header {
+          text-align: center;
+          padding: 20px;
+      }
+      h1 {
+          color: #be8aef;
+          margin: 20px 0;
+          text-align: center;
+      }
+      h2 {
+          text-align: center;
+          color: #d2a2f5;
+          margin-top: 20px
+      }
+      nav {
+          margin: 20px 0;
+      }
+      nav a {
+          color: #cbace0;
+          margin: 0 15px;
+          text-decoration: none;
+      }
+      .container {
+          width: 80%;
+          margin: 0 auto;
+          padding: 20px;
+      }
+      .profile-pic {
+          display: block;
+          margin: 20px auto;
+          border-radius: 50%;
+          border: 2px solid #fff;
+      }
+      .section {
+          margin-bottom: 30px;
+      }
+      .skills-table {
+          width: 50%;
+          border-collapse: collapse;
+          margin: 0 auto;
+          text-align: center;
+      }
+      th, td {
+          border: 1px solid #dcdcdc;
+          padding: 8px;
+          color: rgb(235, 185, 246);
+          background-color: #815694;
+      }
+      th {
+          background-color: #9714d8;
+          color: rgb(50, 10, 65);
+      }
+      .footer {
+          text-align: center;
+          margin-top: 20px;
+          color: #aaa;
+      }
+      p{
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My Personal Page</h1>
+      <nav>
+        <a href="#home"><strong>Home</strong></a>
+        <a href="#projects"><strong>Project Page</strong></a>
+        <a href="#skills"><strong>Skills Page</strong></a>
+        <a href="#contact"><strong>Contact Page</strong></a>
+      </nav>
+    </header>
+
+    <div class="container" id="home">
+      <img
+        src="https://i.pinimg.com/564x/58/9e/8d/589e8d61b0e13ae634d7fb40cfca84a4.jpg"
+        width="150"
+        height="150"
+        alt="Profile Picture"
+        class="profile-pic"
+      />
+      <p>
+        <center>Welcome to my Activity 2 in Web Development Lecture.</center>
+      </p>
+
+      <section class="section">
+        <br />
+        <h2><strong>✨About Me✨</strong></h2>
+        <p>
+          With all honesty, I’ve been struggling to find the exact words to
+          describe how I am as a human being living in this world.
+        </p>
+        <p>
+          Up to now, I find it extremely difficult whenever I am asked,
+          <em>“Who are you?” “Can you describe yourself?” </em>
+        </p>
+        <p>
+          Except for knowing my name,this is a little information that I know
+          about myself. I’m an introverted person.
+        </p>
+        <p>
+          Some of my relatives told me that I am a boring person which is not to
+          me. I prefer to be alone than to socialize.
+        </p>
+        <p>
+          My hobby is reading—fiction books, not educational ones. I enjoy
+          studying too, though I’m not the smartest, but I am very studious.
+        </p>
+        <p>
+          I am the student who passed the activity early. I am not a
+          <em>“Due Tomorrow Do Tomorrow” </em>type of student. I value time and
+          hate cramming.
+        </p>
+        <p>
+          I like both the sunset and moonlight. Though I wake up early, I prefer
+          the calm of the night. As for food, I love spicy dishes.
+        </p>
+        <p>
+          To me, food without spice is just dull. I fear certain things, like
+          slimy creatures and cockroaches, but I aim to overcome these fears.
+        </p>
+        <p>And lastly, <em>Privacy is very important to me. </em></p>
+      </section>
+
+      <section class="section">
+        <br />
+        <h2><strong>Programming Journey:</strong></h2>
+        <p>
+          As a third-year student in the Bachelor of Science in Information
+          Systems (BSIS) program,
+        </p>
+        <p>
+          programming has been a journey full of ups and downs. While I have a
+          clear understanding of how
+        </p>
+        <p>
+          programs execute and how things work behind the scenes, I often find
+          it challenging to create code
+        </p>
+        <p>
+          from scratch. I frequently rely on Google or ask for help when trying
+          to build something on my own.
+        </p>
+        <p>
+          It’s as if I’m a grade school student who understands the concept but
+          struggles to write it out.
+        </p>
+        <p>
+          Although I can follow the logic and steps of a program, creating
+          something original is still a hurdle
+        </p>
+        <p>
+          for me. Coding doesn’t come naturally yet, but I am determined to
+          improve this skill with time and practice.
+        </p>
+      </section>
+    </div>
+
+    <div class="container" id="projects">
+      <h1>✨My Programming Projects✨</h1>
+      <section class="section">
+        <h2>Project 1: Personal Website</h2>
+        <p><strong>Description:</strong> A personal portfolio website.</p>
+        <p><strong>Technologies Used:</strong> HTML, CSS</p>
+      </section>
+
+      <section class="section">
+        <h2>Project 2: Library System</h2>
+        <p>
+          <strong>Description:</strong> A basic library system for managing
+          books.
+        </p>
+        <p><strong>Technologies Used:</strong> HTML, CSS</p>
+      </section>
+
+      <section class="section">
+        <h2>Project 3: Book Store</h2>
+        <p>
+          <strong>Description:</strong> A web-based store showcasing products.
+        </p>
+        <p><strong>Technologies Used:</strong> HTML, CSS</p>
+      </section>
+    </div>
+
+    <div class="container" id="skills">
+      <h1><strong>✨My Skills✨</strong></h1>
+      <section class="section">
+        <h2>Programming Languages & Proficiency</h2>
+        <table class="skills-table">
+          <thead>
+            <tr>
+              <th>Language/Technology</th>
+              <th>Proficiency</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>C</td>
+              <td>Intermediate</td>
+            </tr>
+            <tr>
+              <td>C++</td>
+              <td>Beginner</td>
+            </tr>
+            <tr>
+              <td>Java</td>
+              <td>Beginner</td>
+            </tr>
+            <tr>
+              <td>HTML</td>
+              <td>Intermediate</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>Intermediate</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+
+    <div class="container" id="contact">
+      <h1><strong>✨Contact Information✨</strong></h1>
+      <section class="section">
+        <h2><strong>Basic Information:</strong></h2>
+        <p><strong>Name:</strong> Princes Angelie T. Subido</p>
+        <p><strong>Location:</strong> Quezon City, Philippines-Manila</p>
+        <p><strong>Email:</strong> princesangelie.subido@tup.edu.ph</p>
+      </section>
+    </div>
+
+    <footer class="footer">
+      <p>&copy; 2024 Princes Angelie T. Subido | All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
